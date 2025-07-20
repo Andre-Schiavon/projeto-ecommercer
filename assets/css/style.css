@@ -43,3 +43,79 @@ button{
     align-items: center;
     gap: 5px;
 }
+body{
+    background-color: rgb(7, 7, 7);
+}
+
+
+
+
+
+
+
+footer{
+    display: flex;
+    background-color: rgb(41, 40, 40);
+    font-size: 8px;
+    padding-bottom:;
+    color:rgb(255, 255, 255);
+    justify-content: space-evenly;
+    margin:  0 30px 0 60px;
+    width: 80%;
+    
+}
+
+.institucional{
+     flex-direction:column;
+     gap: 6px;
+}
+.ajuda {
+    flex-direction:column;
+     gap: 6px;
+}
+
+.endereco {
+    flex-direction:column;
+     gap: 6px;
+
+}
+footer{
+    display: flex;
+    background-color: rgb(41, 40, 40);
+    font-size: 10px;
+    padding-bottom:;
+    color:white;
+    justify-content: space-evenly;
+    margin:  0 30px 0 60px;
+    width: 80%;
+    margin-bottom: 20px;
+    padding: 11px;
+}
+
+.institucional{
+     flex-direction:column;
+     gap: 6px;
+     
+}
+.ajuda {
+    flex-direction:column;
+     gap: 6px;
+}
+
+.endereco {
+    flex-direction:column;
+     gap: 6px;
+}
+.lista{
+    color: rgb(108, 64, 230);
+    flex-direction:column;
+     gap: 6px;
+}
+footer li a{
+    color: rgb(177, 126, 219);
+}
+.copyright{
+    color: white;
+    font-size: 11px;
+   text-align: center;
+}
